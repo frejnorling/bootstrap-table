@@ -22,7 +22,7 @@ h2. Files to reference
 <script src="js/bootstrap-table.js"></script>
 </pre>
 
-h2. Usage
+h2. Markup
 
 <pre>
 <table>
@@ -40,6 +40,10 @@ h2. Usage
         </tr>
     </tbody>
 </table>
+</pre>
+
+h2. Usage
+<pre>
 <script type="text/javascript">
 	$('table').table();
 </script>
