@@ -9,3 +9,35 @@ h1. Examples
 h1. Quick Start
 
 Download "the latest version of bootstrap-table":https://github.com/frejnorling/bootstrap-table/downloads
+
+h2. Files to reference
+
+<pre>
+<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css"></link>
+<script src="js/jquery-1.7.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap-table.js"></script>
+</pre>
+
+h2. Usage
+
+<pre>
+<table>
+    <thead>
+        <tr>
+            <th>Type</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr data-type="modal" data-content="This content will be displayed in a Bootstrap modal popup">
+            <td>Modal</td>
+        </tr>
+        <tr data-type="inline" data-content="This content will be displayed in a row under this .row">
+            <td>Inline</td>
+        </tr>
+    </tbody>
+</table>
+<script type="text/javascript">
+	$('table').table();
+</script>
+</pre>
