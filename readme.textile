@@ -1,3 +1,11 @@
-h1. OVerview
+h1. Overview
 
 Bootstrap-table is a javascript plugin that makes it easy to add extended row information (by clicking on a row) in HTML tables with the help of "Twitter Bootstrap":http://twitter.github.com/bootstrap/.
+
+h1. Examples
+
+<i>comming...</i>
+
+h1. Quick Start
+
+Download "the latest version of bootstrap-table":https://github.com/frejnorling/bootstrap-table/downloads
