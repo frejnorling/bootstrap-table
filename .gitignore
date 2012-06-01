@@ -62,9 +62,9 @@ local.properties
 *.tlh
 *.tmp
 *.vspscc
+*.sln
+*.csproj
 .builds
-.sln
-.csproj
 **/*.dotCover
 
 ## TODO: If you have NuGet Package Restore enabled, uncomment this
