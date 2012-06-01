@@ -11,7 +11,9 @@ h1. Quick Start
 Download "the latest version of bootstrap-table":https://github.com/frejnorling/bootstrap-table/downloads
 
 or you can use "NuGet to add it to your project":http://nuget.org/packages/Bootstrap-Table
-
+<pre>
+Install-Package Bootstrap-Table
+</pre>
 
 h2. Files to reference
 
