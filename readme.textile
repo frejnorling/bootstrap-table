@@ -35,7 +35,7 @@ h2. Markup
 		<tr data-type="modal" data-content="This content will be displayed in a Bootstrap modal popup">
 			<td>Modal</td>
 		</tr>
-		<tr data-type="inline" data-content="This content will be displayed in a row under this .row">
+		<tr data-type="inline" data-content="This content will be displayed in a row under this row">
 			<td>Inline</td>
 		</tr>
 	</tbody>
@@ -46,6 +46,6 @@ h2. Usage
 
 <pre>
 <script type="text/javascript">
-	$('table').table();
+	$('table').table('show');
 </script>
 </pre>
