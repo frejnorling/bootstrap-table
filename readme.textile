@@ -26,23 +26,24 @@ h2. Markup
 
 <pre>
 <table>
-    <thead>
-        <tr>
-            <th>Type</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr data-type="modal" data-content="This content will be displayed in a Bootstrap modal popup">
-            <td>Modal</td>
-        </tr>
-        <tr data-type="inline" data-content="This content will be displayed in a row under this .row">
-            <td>Inline</td>
-        </tr>
-    </tbody>
+	<thead>
+		<tr>
+			<th>Type</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr data-type="modal" data-content="This content will be displayed in a Bootstrap modal popup">
+			<td>Modal</td>
+		</tr>
+		<tr data-type="inline" data-content="This content will be displayed in a row under this .row">
+			<td>Inline</td>
+		</tr>
+	</tbody>
 </table>
 </pre>
 
 h2. Usage
+
 <pre>
 <script type="text/javascript">
 	$('table').table();
