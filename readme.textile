@@ -10,6 +10,9 @@ h1. Quick Start
 
 Download "the latest version of bootstrap-table":https://github.com/frejnorling/bootstrap-table/downloads
 
+or you can use "NuGet to add it to your project":http://nuget.org/packages/Bootstrap-Table
+<pre> PM> Install-Package Bootstrap-Table</pre>
+
 h2. Files to reference
 
 <pre>
@@ -23,23 +26,27 @@ h2. Markup
 
 <pre>
 <table>
-    <thead>
-        <tr>
-            <th>Type</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr data-type="modal" data-content="This content will be displayed in a Bootstrap modal popup">
-            <td>Modal</td>
-        </tr>
-        <tr data-type="inline" data-content="This content will be displayed in a row under this .row">
-            <td>Inline</td>
-        </tr>
-    </tbody>
+	<thead>
+		<tr>
+			<th>Type</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr data-type="modal" data-content="This content will be displayed in a Bootstrap modal popup">
+			<td>Modal</td>
+		</tr>
+		<tr data-type="inline" data-content="This content will be displayed in a row under this .row">
+			<td>Inline</td>
+		</tr>
+	</tbody>
 </table>
 </pre>
 
 h2. Usage
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
 <pre>
 <script type="text/javascript">
 	$('table').table();

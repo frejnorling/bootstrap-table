@@ -62,11 +62,13 @@ local.properties
 *.tlh
 *.tmp
 *.vspscc
+*.sln
+*.csproj
 .builds
 **/*.dotCover
 
 ## TODO: If you have NuGet Package Restore enabled, uncomment this
-#**/packages/ 
+#packages/ 
 
 # Visual C++ cache files
 ipch/
