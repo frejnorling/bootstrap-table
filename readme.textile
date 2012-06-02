@@ -35,11 +35,7 @@ h2. Markup
 		<tr data-type="modal" data-content="This content will be displayed in a Bootstrap modal popup">
 			<td>Modal</td>
 		</tr>
-<<<<<<< HEAD
-		<tr data-type="inline" data-content="This content will be displayed in a row under this .row">
-=======
 		<tr data-type="inline" data-content="This content will be displayed in a row under this row">
->>>>>>> origin/master
 			<td>Inline</td>
 		</tr>
 	</tbody>
@@ -47,14 +43,7 @@ h2. Markup
 </pre>
 
 h2. Usage
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 
->>>>>>> origin/master
-=======
-
->>>>>>> origin/master
 <pre>
 <script type="text/javascript">
 	$('table').table('show');
