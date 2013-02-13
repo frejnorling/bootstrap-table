@@ -4,7 +4,7 @@ Bootstrap-table is a javascript plugin that makes it easy to add extended row in
 
 h1. Examples
 
-<i>comming...</i>
+http://frej.co/bootstrap-table-demo/
 
 h1. Quick Start
 
