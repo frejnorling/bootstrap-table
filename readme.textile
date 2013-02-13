@@ -32,7 +32,7 @@ h2. Markup
 		</tr>
 	</thead>
 	<tbody>
-		<tr data-type="modal" data-content="This content will be displayed in a Bootstrap modal popup">
+		<tr data-type="modal" data-content="This content will be displayed in a Bootstrap modal popup" title="Modal title">
 			<td>Modal</td>
 		</tr>
 		<tr data-type="inline" data-content="This content will be displayed in a row under this row">
